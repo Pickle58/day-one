@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"file":"turbopack:///[project]/apps/web/node_modules/.pnpm/next-sanity@12.1.0_94e6cbc7030d226050a9f2acad345bbf/node_modules/next-sanity/dist/RefreshOnReconnect.js","sources":["file:///C:/Users/jpilk/Documents/Projects/sanity-course/day-one/apps/web/node_modules/.pnpm/next-sanity%4012.1.0_94e6cbc7030d226050a9f2acad345bbf/node_modules/next-sanity/src/live/client-components/live/RefreshOnReconnect.tsx"],"sourcesContent":["import {useRouter} from 'next/navigation'\nimport {useEffect} from 'react'\n\nexport default function RefreshOnReconnect(): null {\n  const router = useRouter()\n\n  useEffect(() => {\n    const controller = new AbortController()\n    const {signal} = controller\n    window.addEventListener('online', () => router.refresh(), {passive: true, signal})\n    return () => controller.abort()\n  }, [router])\n\n  return null\n}\nRefreshOnReconnect.displayName = 'RefreshOnReconnect'\n"],"names":[],"mappings":";;;;;;;;AAGA,SAAwB,qBAA2B;IACjD,MAAM,aAAS,6QAAA,EAAW;IAE1B,IAAA,gVAAA,EAAA,MAAgB;QACd,MAAM,aAAa,IAAI,iBAAiB;QACxC,MAAM,EAAC,MAAA,EAAA,GAAU;QACjB,OAAO,gBAAA,CAAiB,UAAA,IAAgB,OAAO,OAAA,EAAS,EAAE;YAAC,SAAS;YAAM;SAAO,CAAC;QAClF,OAAA,IAAa,WAAW,KAAA,EAAO;OAC9B;QAAC;KAAO,CAAC;IAEZ,OAAO;;AAET,mBAAmB,WAAA,GAAc"}}]
+}

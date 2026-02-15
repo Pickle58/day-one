@@ -1,0 +1,4 @@
+[00:00:02.098] Server  LOG     ✓ Ready in 1314ms
+[00:00:33.060] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\jpilk\Documents\Projects\sanity-course\day-one\apps\web\src\app'
+[00:00:33.065] Server  ERROR   ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir 'C:\Users\jpilk\Documents\Projects\sanity-course\day-one\apps\web\src\app'
+[00:00:33.069] Server  ERROR   ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir 'C:\Users\jpilk\Documents\Projects\sanity-course\day-one\apps\web\src\app'

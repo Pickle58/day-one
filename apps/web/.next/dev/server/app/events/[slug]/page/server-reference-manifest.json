@@ -1,0 +1,35 @@
+{
+  "node": {
+    "4082ebde69c34fafb4fba611d5d2b5387801f0ae5a": {
+      "workers": {
+        "app/events/[slug]/page": {
+          "moduleId": "[project]/apps/web/.next-internal/server/app/events/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/web/node_modules/.pnpm/next-sanity@12.1.0_94e6cbc7030d226050a9f2acad345bbf/node_modules/next-sanity/dist/live/server-actions/index.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "revalidateSyncTags",
+          "filename": "apps/web/node_modules/.pnpm/next-sanity@12.1.0_94e6cbc7030d226050a9f2acad345bbf/node_modules/next-sanity/dist/live/server-actions/index.js"
+        }
+      },
+      "layer": {
+        "app/events/[slug]/page": "action-browser"
+      },
+      "exportedName": "revalidateSyncTags",
+      "filename": "apps/web/node_modules/.pnpm/next-sanity@12.1.0_94e6cbc7030d226050a9f2acad345bbf/node_modules/next-sanity/dist/live/server-actions/index.js"
+    },
+    "404bfaa86d939a8fd53f87c69f087fd04108c1c041": {
+      "workers": {
+        "app/events/[slug]/page": {
+          "moduleId": "[project]/apps/web/.next-internal/server/app/events/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/web/node_modules/.pnpm/next-sanity@12.1.0_94e6cbc7030d226050a9f2acad345bbf/node_modules/next-sanity/dist/live/server-actions/index.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "setPerspectiveCookie",
+          "filename": "apps/web/node_modules/.pnpm/next-sanity@12.1.0_94e6cbc7030d226050a9f2acad345bbf/node_modules/next-sanity/dist/live/server-actions/index.js"
+        }
+      },
+      "layer": {
+        "app/events/[slug]/page": "action-browser"
+      },
+      "exportedName": "setPerspectiveCookie",
+      "filename": "apps/web/node_modules/.pnpm/next-sanity@12.1.0_94e6cbc7030d226050a9f2acad345bbf/node_modules/next-sanity/dist/live/server-actions/index.js"
+    }
+  },
+  "edge": {}
+}
