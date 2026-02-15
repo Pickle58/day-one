@@ -1,4 +1,7 @@
-[00:00:02.098] Server  LOG     ✓ Ready in 1314ms
-[00:00:33.060] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\jpilk\Documents\Projects\sanity-course\day-one\apps\web\src\app'
-[00:00:33.065] Server  ERROR   ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir 'C:\Users\jpilk\Documents\Projects\sanity-course\day-one\apps\web\src\app'
-[00:00:33.069] Server  ERROR   ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir 'C:\Users\jpilk\Documents\Projects\sanity-course\day-one\apps\web\src\app'
+[00:00:01.520] Server  LOG     
+[00:00:01.520] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.522] Server  LOG       The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.523] Server  LOG       	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.524] Server  LOG     
+[00:00:01.943] Server  LOG     ✓ Ready in 1504ms
