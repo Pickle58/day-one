@@ -1,4 +1,2 @@
 packages:
-  - "studio"
-  - "tickets"
-  - "web"
+  - "apps/*"
