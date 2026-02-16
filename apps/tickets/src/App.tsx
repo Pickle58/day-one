@@ -1,7 +1,6 @@
 import {type SanityConfig} from '@sanity/sdk'
 import {SanityApp} from '@sanity/sdk-react'
 import {Flex, Spinner} from '@sanity/ui'
-import {ExampleComponent} from './ExampleComponent'
 import {SanityUI} from './SanityUI'
 import {Events} from './Events'
 
